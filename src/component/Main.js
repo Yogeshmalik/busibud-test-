@@ -2,39 +2,39 @@ import React from "react";
 
 function Main() {
   return (
-    <div className="main px-3">
-      <div className="d-flex mb-5 px-5 rounded-end-circle overflow-hidden">
-        <div className="d-flex flex-column px-5 me-4 w-50 overflow-visible z-1 align-content-center m-auto">
-          <h2 className="d-flex">
+    <div className="main ">
+      <div className="part-1 d-flex px-2 rounded-end-circle overflow-hidden ">
+        <div className="d-flex left pt-5 flex-column w-50 overflow-visible align-content-center my-auto">
+          <h1 className="d-flex ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </h2>
-          <p className="d-flex pe-5 py-3">
+          </h1>
+          <p className="d-flex pe-  py-3 fs-5 fw-semibold">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed
             commodo est.Pellentesque eu placerat mauris. Etiam ut maximus ante.
             Suspendisse varius dolor nec bibendum dignissim. Proin in diam a
             justo sollicitudin mattis eu sagittis nunc. In hac habitasse platea
             dictumst.
           </p>
-          <button className="mt-2 align-self-start btn btn-primary rounded-5 px-4 py-2">
+          <button className="mt-4 fs-3 align-self-start btn btn-primary shadow-sm rounded-pill px-5 py-3">
             Check Pricing
           </button>
         </div>
         <img
           src="/images/Mask Group 1.svg"
-          alt=""
+          alt="top"
           className="d-flex"
         />
       </div>
       {/* <img src="/images/images/wave-bottom.svg" alt="" className="d-flex wave-1" /> */}
       {/* <div className="d-flex z-n1 section pattern curvy-background" /> */}
       {/* <div className="d-flex wave-2" /> */}
-      <div className="d-flex flex-column p-5">
-        <h2 className="d-flex text-center mx-auto mb-5">
+      <div className="part-2 d-flex flex-column">
+        <h1 className="d-flex text-center mx-auto mb-5">
           Lorem ipsum dolor sit amet,consectetur adipiscing elit.
-        </h2>
-        <div className="d-flex">
+        </h1>
+        <div className="d-flex mx-auto">
           <div className="d-flex flex-column card">
-            <h4 className="d-flex">Lorem ipsum dolor sit .</h4>
+            <h5 className="d-flex">Lorem ipsum dolor sit .</h5>
             <p className="d-flex">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed
               commodo est.Pellentesque eu placerat mauris. Etiam ut maximus
@@ -44,7 +44,7 @@ function Main() {
             </p>
           </div>
           <div className="d-flex flex-column card">
-            <h4 className="d-flex">Lorem ipsum dolor sit .</h4>
+            <h5 className="d-flex">Lorem ipsum dolor sit .</h5>
             <p className="d-flex">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed
               commodo est.Pellentesque eu placerat mauris. Etiam ut maximus
@@ -54,7 +54,7 @@ function Main() {
             </p>
           </div>
           <div className="d-flex flex-column card">
-            <h4 className="d-flex">Lorem ipsum dolor sit .</h4>
+            <h5 className="d-flex">Lorem ipsum dolor sit .</h5>
             <p className="d-flex">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed
               commodo est.Pellentesque eu placerat mauris. Etiam ut maximus
@@ -65,12 +65,12 @@ function Main() {
           </div>
         </div>
       </div>
-      <div className="d-flex flex-column">
-        <h2 className="d-flex">
+      <div className="part-3 d-flex flex-column">
+        <h1 className="d-flex mx-auto">
           Lorem ipsum dolor sit amet,consectetur adipiscing elit.
-        </h2>
-        <div className="d-flex">
-          <div className="d-flex flex-column">
+        </h1>
+        <div className="d-flex container justify-content-between">
+          <div className="d-flex flex-column laptop">
             <img src="/images/Artwork-20.png" alt="laptop" className="d-flex" />
             <h4 className="d-flex">Lorem ipsum dolor sit .</h4>
             <p className="d-flex">
@@ -81,7 +81,7 @@ function Main() {
               habitasse.
             </p>
           </div>
-          <div className="d-flex flex-column">
+          <div className="d-flex flex-column laptop">
             <img src="/images/Artwork-22.png" alt="laptop" className="d-flex" />
             <h4 className="d-flex">Lorem ipsum dolor sit .</h4>
             <p className="d-flex">
@@ -92,7 +92,7 @@ function Main() {
               habitasse.
             </p>
           </div>
-          <div className="d-flex flex-column">
+          <div className="d-flex flex-column laptop">
             <img src="/images/Artwork-23.png" alt="laptop" className="d-flex" />
             <h4 className="d-flex">Lorem ipsum dolor sit .</h4>
             <p className="d-flex">
@@ -105,7 +105,7 @@ function Main() {
           </div>
         </div>
       </div>
-      <div className="d-flex flex-column">
+      <div className="part-4 d-flex flex-column">
         <h2>Lorem</h2>
         <div className="d-flex flex-column align-content-center m-auto">
           <div className="d-flex">
@@ -184,7 +184,7 @@ function Main() {
           </button>
         </div>
       </div>
-      <div className="d-flex flex-column">
+      <div className="part-5 d-flex flex-column">
         <h2 className="d-flex">Lorem ipsum dolor sit .</h2>
         <div className="d-flex flex-row card">
           <img
@@ -281,18 +281,18 @@ function Main() {
           </div>
         </div>
       </div>
-      <div className="d-flex">
+      <div className="part-6 d-flex">
         <h4 className="d-flex">Lorem</h4>
         <div className="d-flex">
-          <div className="d-flex flex-column">
+          <div className="d-flex flex-column fire">
             <img src="/images/form-fire.png" alt="form-fire" className="" />
             <p className="d-flex">Forms On Fire</p>
           </div>
-          <div className="d-flex flex-column">
+          <div className="d-flex flex-column electro">
             <img src="/images/electro.png" alt="form-fire" className="" />
             <p className="d-flex">Forms On Fire</p>
           </div>
-          <div className="d-flex flex-column">
+          <div className="d-flex flex-column jot">
             <img src="/images/jot-form.png" alt="form-fire" className="" />
             <p className="d-flex">Forms On Fire</p>
           </div>

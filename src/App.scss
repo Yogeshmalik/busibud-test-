@@ -13,6 +13,91 @@
 }
 
 .main {
+
+  .part-1{ 
+
+    margin-bottom: 10rem;
+
+    .left{
+    padding-left: 10%;
+  }
+
+  h1{
+    font-size: 2.7rem !important ;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: inherit;
+    }
+
+    button{
+      background: #1492E6 0% 0% no-repeat padding-box;
+      box-shadow: 0px 16px 48px #00000029;
+    }
+  
+    img{
+      width: 39.9rem;
+      padding-left: 6rem;
+    }
+  }
+
+  .part-2{
+
+    padding-bottom: 13rem;
+
+    h1{
+      font-weight: 700;
+      padding-bottom: inherit;
+    }
+
+    .card{
+      padding: 2.1rem 1.5rem;
+      width: 22rem;
+      // height: 320px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      box-shadow: 0px 3px 6px #00000029;
+      border-radius: 18px;
+      opacity: 1;
+      margin: 0 1.3rem;
+      border: none;
+
+      h5{
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 1rem;
+        font-weight: 700;
+      }
+
+      p{
+        font-weight: 500;
+        font-size: 1.1rem;
+        // padding: 0 0.8rem;
+      }
+    }
+
+  }
+
+  .part-3{
+
+    h1{
+      padding-bottom: 10rem;
+    }
+
+    .laptop{
+      padding: 2.1rem 1.5rem;
+      width: 30rem;
+      margin: 0 1.3rem;
+    }
+
+    img{
+      height: 12rem;
+      width: 12rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+
+}
+
+
   .wave-1 {
     top: 460px;
     left: 0px;
@@ -59,4 +144,4 @@
   }
   
   
-}
+

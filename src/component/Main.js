@@ -19,11 +19,7 @@ function Main() {
             Check Pricing
           </button>
         </div>
-        <img
-          src="/images/Mask Group 1.svg"
-          alt="top"
-          className="d-flex"
-        />
+        <img src="/images/Mask Group 1.svg" alt="top" className="d-flex" />
       </div>
       {/* <img src="/images/images/wave-bottom.svg" alt="" className="d-flex wave-1" /> */}
       {/* <div className="d-flex z-n1 section pattern curvy-background" /> */}
@@ -106,7 +102,7 @@ function Main() {
         </div>
       </div>
       <div className="part-4 d-flex flex-column">
-        <h2>Lorem</h2>
+        <h1>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</h1>
         <div className="d-flex flex-column align-content-center m-auto">
           <div className="d-flex">
             <img src="/images/save-money.png" alt="hands" className="d-flex" />
@@ -115,11 +111,8 @@ function Main() {
             </h2>
           </div>
           <p className="d-flex">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed
-            commodo est.Pellentesque eu placerat mauris. Etiam ut maximus ante.
-            Suspendisse varius dolor nec bibendum dignissim. Proin in diam a
-            justo sollicitudin mattis eu sagittis nunc. In hac habitasse platea
-            dictumst.
+            adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris.
+            ut maximus ante. Suspendisse varius dolor nec bibendum dignissim
           </p>
           <button className=" align-self-start btn btn-primary rounded-5 px-5 py-2">
             Check Pricing
@@ -133,11 +126,8 @@ function Main() {
             </h2>
           </div>
           <p className="d-flex">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed
-            commodo est.Pellentesque eu placerat mauris. Etiam ut maximus ante.
-            Suspendisse varius dolor nec bibendum dignissim. Proin in diam a
-            justo sollicitudin mattis eu sagittis nunc. In hac habitasse platea
-            dictumst.
+            adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris.
+            ut maximus ante. Suspendisse
           </p>
           <button className=" align-self-start btn btn-primary rounded-5 px-5 py-2">
             Check Pricing
@@ -151,11 +141,8 @@ function Main() {
             </h2>
           </div>
           <p className="d-flex">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed
-            commodo est.Pellentesque eu placerat mauris. Etiam ut maximus ante.
-            Suspendisse varius dolor nec bibendum dignissim. Proin in diam a
-            justo sollicitudin mattis eu sagittis nunc. In hac habitasse platea
-            dictumst.
+            adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris.
+            ut maximus ante. Suspendisse varius dolor nec bibendum dignissim
           </p>
           <button className=" align-self-start btn btn-primary rounded-5 px-5 py-2">
             Check Pricing
@@ -173,11 +160,8 @@ function Main() {
             </h2>
           </div>
           <p className="d-flex">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed
-            commodo est.Pellentesque eu placerat mauris. Etiam ut maximus ante.
-            Suspendisse varius dolor nec bibendum dignissim. Proin in diam a
-            justo sollicitudin mattis eu sagittis nunc. In hac habitasse platea
-            dictumst.
+            adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris.
+            ut maximus ante. Suspendisse
           </p>
           <button className=" align-self-start btn btn-primary rounded-5 px-5 py-2">
             Check Pricing
@@ -227,13 +211,13 @@ function Main() {
             <div className="d-flex justify-content-between">
               <div className="d-flex">
                 <img
-                  src="/images/johndoe.png"
-                  alt="jhon doe"
+                  src="/images/amanda.png"
+                  alt="amanda"
                   className="d-flex"
                 />
                 <div className="d-flex flex-column">
-                  <p>Jhon Doe</p>
-                  <p>CEO</p>
+                  <p>Amanda green</p>
+                  <p>Operations Manager</p>
                 </div>
               </div>
               <div className="d-flex">
@@ -255,13 +239,13 @@ function Main() {
             <div className="d-flex justify-content-between">
               <div className="d-flex">
                 <img
-                  src="/images/johndoe.png"
-                  alt="jhon doe"
+                  src="/images/sam.png"
+                  alt="sam"
                   className="d-flex"
                 />
                 <div className="d-flex flex-column">
-                  <p>Jhon Doe</p>
-                  <p>CEO</p>
+                  <p>Sam Cooper</p>
+                  <p>Customer Service Manager</p>
                 </div>
               </div>
               <div className="d-flex">
@@ -281,20 +265,20 @@ function Main() {
           </div>
         </div>
       </div>
-      <div className="part-6 d-flex">
-        <h4 className="d-flex">Lorem</h4>
-        <div className="d-flex">
+      <div className="part-6 d-flex flex-column">
+        <h1 className="d-flex mx-auto">Lorem ipsum dolor sit amet,consectetur adipiscing elit.</h1>
+        <div className="d-flex mx-auto">
           <div className="d-flex flex-column fire">
             <img src="/images/form-fire.png" alt="form-fire" className="" />
             <p className="d-flex">Forms On Fire</p>
           </div>
           <div className="d-flex flex-column electro">
-            <img src="/images/electro.png" alt="form-fire" className="" />
-            <p className="d-flex">Forms On Fire</p>
+            <img src="/images/electro.png" alt="electro" className="" />
+            <p className="d-flex">ElectroNeek Studio IDE</p>
           </div>
           <div className="d-flex flex-column jot">
-            <img src="/images/jot-form.png" alt="form-fire" className="" />
-            <p className="d-flex">Forms On Fire</p>
+            <img src="/images/jot-form.png" alt="jot-form" className="" />
+            <p className="d-flex">Jot form</p>
           </div>
         </div>
       </div>

@@ -2,14 +2,20 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-dark text-light" style={{ height: "369px" }}>
-      <p
-        className="text-center align-items-end font-monospace d-flex justify-content-center pb-5 fs-5"
-        style={{ height: "100%" }}
+    <footer
+      className="footer bg-black text-light text-center align-items-end
+      d-flex justify-content-center pb-5 fs-5"
+    >
+      <span
+        className="copyright d-inline-flex justify-content-center align-items-center
+        text-center text-uppercase border border-3 rounded-circle"
+        // style={{ width: "30px", height: "30px" }}
       >
-        © Helplama 2021
-      </p>
-    </div>
+        C
+      </span>
+
+      <span className="pb-">Helplama 2021</span>
+    </footer>
   );
 }
 

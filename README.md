@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# BUSIBUD
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Adobe XD to HTML/CSS
 
-## Available Scripts
+Welcome to my React application!
 
-In the project directory, you can run:
+## Live Link
 
-### `npm start`
+Check out the live version of the application [here](https://yogeshsm-busibud.vercel.app/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React
+- Bootstrap CSS
+- HTML
+- CSS
+- Bootstrap
+- Adobe XD
+- Vercel for deployment
 
-### `npm test`
+## Setup Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Install Microsoft VS Code
+2. Install Node.js
+3. Open VS Code
+4. Open Terminal
+5. Clone the repository: `git clone https://github.com/Yogeshmalik/busibud-test-`
+6. Navigate to the project directory: `cd busibud`
+7. Install the dependencies: `npm install`
+8. Start the development server: `npm start`
+9. Open your browser and visit `http://localhost:3000` to see the application running
 
-### `npm run build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![mob-1](https://github.com/Yogeshmalik/busibud-test-/assets/14905121/eccd120b-d3a4-483b-808f-858571ece3b4)
+![mob-2](https://github.com/Yogeshmalik/busibud-test-/assets/14905121/320907c2-a345-45ab-97c9-a4fc782c73d8)
+![mob-3](https://github.com/Yogeshmalik/busibud-test-/assets/14905121/5aa47275-eeee-4e8f-8abf-5d4ed382c8e5)
+![desktop2](https://github.com/Yogeshmalik/busibud-test-/assets/14905121/f62630b3-c51f-43d4-b2ca-a5c0d11bdf5b)
+![desktop1](https://github.com/Yogeshmalik/busibud-test-/assets/14905121/d794811b-452e-40ac-a56c-88ebe2a92a84)
+![tab-1](https://github.com/Yogeshmalik/busibud-test-/assets/14905121/6c7e674f-7012-4745-abcd-007fcfae770d)
+![tab-2](https://github.com/Yogeshmalik/busibud-test-/assets/14905121/b9ef8337-c17a-4405-a031-4045895ade5e)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.

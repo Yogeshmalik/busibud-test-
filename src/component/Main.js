@@ -3,13 +3,8 @@ import React from "react";
 function Main() {
   return (
     <div className="main mx-auto">
-      <div className="part-1 d-flex px-md-2 flex-md-row flex-column-reverse rounded-end-circle overflow-hidden ">
+      <div className="part-1 d-flex px-md-2 justify-content-md-around flex-md-row flex-column-reverse rounded-end-circle overflow-hidden ">
         <div className="d-flex left pt-md-5 pt-3 flex-column overflow-visible align-content-center my-auto">
-          {/* <img
-            src="/images/Group%20117.png"
-            className="h-25 w-50 pb-4 mx-auto d-md-none d-flex"
-            alt="top rectangle"
-          /> */}
           <h1 className="d-flex text-wrap">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </h1>
@@ -132,7 +127,9 @@ function Main() {
             adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris.
             ut maximus ante. Suspendisse varius dolor nec bibendum dignissim
           </p>
-          <button className=" btn btn-primary">Check Pricing</button>
+          <button className=" align-self-center align-self-md-start btn btn-primary">
+            Check Pricing
+          </button>
         </div>
         <div className="d-flex flex-column pb-4 pb-md-0 right-side">
           <div className="d-flex pb-md-3 pb-2">
@@ -145,7 +142,9 @@ function Main() {
             adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris.
             ut maximus ante. Suspendisse
           </p>
-          <button className="  btn btn-primary">Check Pricing</button>
+          <button className=" align-self-center align-self-md-start btn btn-primary">
+            Check Pricing
+          </button>
         </div>
         <div className="d-flex flex-column align-content-center pb-4 pb-md-0 left-side">
           <div className="d-flex pb-md-3 pb-2">
@@ -158,7 +157,7 @@ function Main() {
             adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris.
             ut maximus ante. Suspendisse varius dolor nec bibendum dignissim
           </p>
-          <button className=" align-self-md-start btn btn-primary">
+          <button className=" align-self-center align-self-md-start btn btn-primary">
             Check Pricing
           </button>
         </div>
@@ -177,7 +176,7 @@ function Main() {
             adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris.
             ut maximus ante. Suspendisse
           </p>
-          <button className=" align-self-md-start btn btn-primary">
+          <button className=" align-self-center align-self-md-start btn btn-primary">
             Check Pricing
           </button>
         </div>

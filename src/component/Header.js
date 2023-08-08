@@ -13,8 +13,12 @@ function Header() {
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
           <Nav className="d-flex justify-content-between ps-3 ps-md-0 align-items-md-center mx-md-auto">
-            <Nav.Link className="nav-link" href="#">Nav1</Nav.Link>
-            <Nav.Link className="nav-link" href="#">Nav2</Nav.Link>
+            <Nav.Link className="nav-link" href="#">
+              Nav1
+            </Nav.Link>
+            <Nav.Link className="nav-link" href="#">
+              Nav2
+            </Nav.Link>
             <NavDropdown title="Nav3" id="nav-dropdown-1">
               <NavDropdown.Item href="https://yogeshmalikportfolio.netlify.app/">
                 Made by YSM - Resume
@@ -31,10 +35,18 @@ function Header() {
                 Yogesh's Blog
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className="nav-link" href="#">Nav5</Nav.Link>
-            <Nav.Link className="nav-link" href="#">Nav6</Nav.Link>
-            <Nav.Link className="nav-link" href="#">Nav7</Nav.Link>
-            <Nav.Link className="nav-link" href="#">Nav8</Nav.Link>
+            <Nav.Link className="nav-link" href="#">
+              Nav5
+            </Nav.Link>
+            <Nav.Link className="nav-link" href="#">
+              Nav6
+            </Nav.Link>
+            <Nav.Link className="nav-link" href="#">
+              Nav7
+            </Nav.Link>
+            <Nav.Link className="nav-link" href="#">
+              Nav8
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
